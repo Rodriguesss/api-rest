@@ -5,7 +5,7 @@
     <div
       class="corpoFormulario"
     >
-      <form
+      <div
         class="formulario"
       >
         <div
@@ -104,7 +104,7 @@
             Voltar
           </button>
         </div>
-      </form>
+      </div>
     </div>
   </div>
 </template>

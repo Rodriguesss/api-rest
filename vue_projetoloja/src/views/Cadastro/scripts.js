@@ -28,6 +28,10 @@ export default {
         .then(res => {
           console.log(res)
         })
+      this.nome = ''
+      this.preco = null
+      this.descricao = ''
+      this.categoria = ''
     }
   }
 }

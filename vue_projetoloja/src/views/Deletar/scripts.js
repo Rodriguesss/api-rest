@@ -24,6 +24,7 @@ export default {
           let indice = this.produto.indexOf(produto)
           this.produto.splice(indice, 1)
         })
+      this.produto = ''
     },
     voltar () {
       this.$router.push('/')

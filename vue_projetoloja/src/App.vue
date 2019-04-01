@@ -24,7 +24,7 @@ export default {
   color: #2c3e50;
   div.container{ display: flex; justify-content: center; height: 500px;
   div.corpoFormulario{ background-color: rgba(255, 255, 255, 0.9); width: 40%; border: 0px solid #000; margin-top: 1em; border-radius: 7px;
-    form.formulario{ font-size: 1.3em; font-weight: 100; font-family: Helvetica, sans-serif; margin-top: 2em;
+    div.formulario{ font-size: 1.3em; font-weight: 100; font-family: Helvetica, sans-serif; margin-top: 2em;
       div.formataFormulario{ padding: 5px 15px 20px; margin-left: 3em;
       label.labelFormulario{ font-family: Blippo, fantasy; margin-left: 5px;}
       input.inputFormulario{ border-radius: 3px; font-family: Helvetica, sans-serif; font-size: 0.9em; outline:none; width: 80%; display:block; }
