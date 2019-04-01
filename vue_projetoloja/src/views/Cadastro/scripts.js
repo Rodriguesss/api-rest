@@ -28,11 +28,6 @@ export default {
         .then(res => {
           console.log(res)
         })
-      this.nome = ''
-      this.preco = ''
-      this.categoria = ''
-      this.descricao = ''
-      alert('Cadastrado!')
     }
   }
 }

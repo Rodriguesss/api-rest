@@ -1,6 +1,10 @@
 <template>
   <div>
-    <h2 class="titulo">{{texto}}</h2>
+    <h2
+      class="titulo"
+    >
+      {{ texto }}
+    </h2>
   </div>
 </template>
 

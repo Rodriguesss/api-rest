@@ -3,7 +3,7 @@
     class="container"
   >
     <div
-      class="corpoDeletar"
+      class="corpoFormulario"
     >
       <form
         class="formulario"
@@ -17,14 +17,14 @@
           >
           <label
             for="nome"
-            class="labelDeletar"
+            class="labelFormulario"
           >
             Nome do Produto
           </label>
           <input
             type="text"
             v-model="produto.nomeProduto"
-            class="inputDeletar"
+            class="inputFormulario"
             disabled
           >
         </div>
@@ -38,14 +38,14 @@
           >
           <label
             for="nome"
-            class="labelDeletar"
+            class="labelFormulario"
           >
             Preço do Produto
           </label>
           <input
             type="number"
             v-model="produto.precoProduto"
-            class="inputDeletar"
+            class="inputFormulario"
             disabled
           >
         </div>
@@ -59,14 +59,14 @@
           >
           <label
             for="nome"
-            class="labelDeletar"
+            class="labelFormulario"
           >
             Categoria
           </label>
           <input
             type="text"
             v-model="produto.categoriaProduto"
-            class="inputDeletar"
+            class="inputFormulario"
             disabled
           >
         </div>
@@ -80,13 +80,13 @@
           >
           <label
             for="nome"
-            class="labelDeletar"
+            class="labelFormulario"
           >
             Descrição do Produto
           </label>
           <textarea
             v-model="produto.descricaoProduto"
-            class="textDeletar"
+            class="textFormulario"
             disabled
           />
         </div>
