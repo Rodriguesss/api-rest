@@ -18,6 +18,7 @@ Construir um projeto simples capaz de operar um CRUD. <br />
 
 ### <h2><b>Rodar Projeto</b></h2>
 ### Instale o Node Modules
+Abra o terminal na pasta 'vue_projetoloja' e insira o seguinte comando:
 ```
 npm install
 ```
