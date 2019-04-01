@@ -10,13 +10,5 @@ namespace ProjetoLoja.Data
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
         public DbSet<Produto> Produtos { get; set; }
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            builder.Entity<Produto>()
-                .HasData(new List<Produto>(){
-                    new Produto() { Id = 1, NomeProduto = "Barbie", PrecoProduto = 19.98, DescricaoProduto = "Boneca", CategoriaProduto = "Infantil" }
-                }
-            );
-        }
     }
 }

@@ -37,16 +37,6 @@ namespace ProjetoLoja.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Produtos");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CategoriaProduto = "Infantil",
-                            DescricaoProduto = "Boneca",
-                            NomeProduto = "Barbie",
-                            PrecoProduto = 19.98
-                        });
                 });
 #pragma warning restore 612, 618
         }

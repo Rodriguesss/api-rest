@@ -22,11 +22,6 @@ namespace ProjetoLoja.Migrations
                 {
                     table.PrimaryKey("PK_Produtos", x => x.Id);
                 });
-
-            migrationBuilder.InsertData(
-                table: "Produtos",
-                columns: new[] { "Id", "CategoriaProduto", "DescricaoProduto", "NomeProduto", "PrecoProduto" },
-                values: new object[] { 1, "Infantil", "Boneca", "Barbie", 19.98 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

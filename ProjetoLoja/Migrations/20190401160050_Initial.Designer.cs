@@ -9,7 +9,7 @@ using ProjetoLoja.Data;
 namespace ProjetoLoja.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20190401022605_Initial")]
+    [Migration("20190401160050_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,16 +39,6 @@ namespace ProjetoLoja.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Produtos");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CategoriaProduto = "Infantil",
-                            DescricaoProduto = "Boneca",
-                            NomeProduto = "Barbie",
-                            PrecoProduto = 19.98
-                        });
                 });
 #pragma warning restore 612, 618
         }

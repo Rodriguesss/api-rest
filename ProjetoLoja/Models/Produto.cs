@@ -15,6 +15,7 @@ namespace ProjetoLoja.Models
         public string DescricaoProduto { get; set; }
 
         [Required]
+        [DisplayFormat(DataFormatString = "{0:F2}")]
         public double PrecoProduto { get; set; }
 
         [Required]
