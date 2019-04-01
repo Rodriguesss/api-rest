@@ -18,7 +18,7 @@ Construir um projeto simples capaz de operar um CRUD. <br />
 
 ### <h2><b>Rodar Projeto</b></h2>
 ### Configurando Postgresql
-Entre na pasta 'ProjetoLoja' e procure o arquivo 'appsetting.Development.json'
+Entre na pasta 'ProjetoLoja' e procure o arquivo 'appsettings.Development.json'
 
 ![Vue.js](https://cdn.discordapp.com/attachments/545281793889402880/562084361265217537/app.png)
 
